@@ -23,3 +23,10 @@ def prime_factors(n):
     if n > i:
         factors.append(n)
     return factors
+
+
+def add():
+    a = int(input('ENTER A NUMBER:'))
+    b = int(input('ENTER A NUMBER:'))
+    return a + b
+print(add())
