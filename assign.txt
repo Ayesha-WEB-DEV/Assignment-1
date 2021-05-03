@@ -30,3 +30,12 @@ def add():
     b = int(input('ENTER A NUMBER:'))
     return a + b
 print(add())
+
+
+punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+my_string = 'hello!---'
+no_punctuation = ''
+for char in my_string:
+    if char not in punc:
+        no_punctuation += char
+print(no_punctuation)
